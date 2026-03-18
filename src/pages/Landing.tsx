@@ -74,9 +74,9 @@ const Landing = () => {
       <nav className="flex items-center justify-between px-8 py-5 max-w-6xl mx-auto">
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">L</span>
+            <span className="text-primary-foreground font-bold text-sm">ML</span>
           </div>
-          <span className="font-semibold text-foreground tracking-tight">Lumen ML</span>
+          <span className="font-semibold text-foreground tracking-tight">Machine Learning</span>
         </div>
         <Link
           to="/learn"
@@ -153,7 +153,7 @@ const Landing = () => {
       {/* Footer */}
       <footer className="max-w-6xl mx-auto px-8 py-8 border-t border-border">
         <p className="text-[13px] text-muted-foreground">
-          Lumen ML — Learn by doing, not by reading.
+          ML — Learn by doing, not by reading.
         </p>
       </footer>
     </div>
