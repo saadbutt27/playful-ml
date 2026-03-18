@@ -44,7 +44,7 @@ const methodExamples = [
     apply: () => ({ keys: Object.keys(baseDictionary).join(", ") }),
     explanation: "Returns a view of all dictionary keys.",
   },
-] as const;
+];
 
 const lessonTabs = [
   { id: "create", title: "Create" },
