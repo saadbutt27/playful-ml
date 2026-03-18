@@ -7,7 +7,7 @@ interface Variable {
   type: string;
 }
 
-const transition = { type: "tween" as const, ease: [0.25, 0.1, 0.25, 1], duration: 0.2 };
+const transition = { type: "tween" as const, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number], duration: 0.2 };
 
 const VariableBox = ({ variable }: { variable: Variable }) => (
   <motion.div

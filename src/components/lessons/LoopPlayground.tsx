@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const transition = { type: "tween" as const, ease: [0.25, 0.1, 0.25, 1], duration: 0.25 };
+const transition = { type: "tween" as const, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number], duration: 0.25 };
 
 const LoopPlayground = () => {
   const [maxIter, setMaxIter] = useState(5);
